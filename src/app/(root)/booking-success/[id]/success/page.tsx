@@ -46,7 +46,7 @@ function BookingSuccess({ params }: { params: { id: string } }) {
             <h1 className="font-bold text-[22px] leading-[33px] text-secondary">
               {booking?.listing?.title}
             </h1>
-            <Badge variant="secondary">{booking.status}</Badge>
+            <Badge variant="secondary">{booking?.status}</Badge>
           </div>
         </div>
 
